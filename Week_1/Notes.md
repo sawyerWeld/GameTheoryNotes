@@ -8,3 +8,7 @@ A set of actions from all players in which no agent can improve their utility by
 | C |-1,-1 | -4,0 |
 | D | 0,-4 | -3,-3 |
 
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjExMDQwNzA0NV19
+-->
