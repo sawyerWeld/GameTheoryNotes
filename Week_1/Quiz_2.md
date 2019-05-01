@@ -43,18 +43,24 @@
 | Build	| 1,1 | 3,0
 | Not | 0,3 | 2,2
 
-- Find all pure strategy Na
+- Find all pure strategy Nash equilibrium:
+- :( ?
 
-### 6. Consider the following game in which two firms must decide whether to open a new plant or not:
+### 6. Consider the game:
 | P1/P2 | Left | Right |
 |--|--|--|
 | Up | 2,1 | 1,1 |
 | Down | 0,1 | 0,2 |
 
 - Which of the following has a strictly dominant strategy?
-- Player 1. 'Up' is strictly dominant because every outcome in 'Up' is better than every outcome in 'Down'.
+- Player 1. 'Up' is strictly dominant because every outcome in 'Up' is better than every outcome in 'Down'. ✔
 
-### 7. 
+### 7. Consider the game:
+| P1/P2 | Left | Right |
+|--|--|--|
+| Left | 3,3 | 1,1 |
+| Right | 1,4 | 0,2 |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzY5NTU0XX0=
+eyJoaXN0b3J5IjpbLTg3OTAyOTA2N119
 -->
