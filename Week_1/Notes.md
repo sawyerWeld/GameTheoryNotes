@@ -19,13 +19,15 @@ A set of actions from all players in which no agent can improve their utility by
 | Right | 0,0 | **1,1** |
 
 #### Battle of the sexes
+- A couple is going to the movies. One would like to go to movie B, the other F.
+- They'd both rather go to the movie the other person wants than go to a movie without their partner.
 
-| | Left | Right |
+| | B | F |
 |--|--|--|
-| Left  | **1,1** | 0,0 |
-| Right | 0,0 | **1,1** |
+| B  | **2,1** | 0,0 |
+| F | 0,0 | **1,2** |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE3NDc4ODg0LC0xNjQzMzQ1NjU5LDIxMT
+eyJoaXN0b3J5IjpbMzQ4OTgwOTY3LC0xNjQzMzQ1NjU5LDIxMT
 A0MDcwNDVdfQ==
 -->
