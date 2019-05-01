@@ -28,8 +28,15 @@ A set of actions from all players in which no agent can improve their utility by
 | F | 0,0 | **1,2** |
 
 #### Matching Pennies
-- Two people flip coins. If they land on the same side (coin1 = coin2) player 1 wins. If they land on opposite sides (coin1 != coin2) player 
+- Two people flip coins. If they land on the same side (coin1 = coin2) player 1 wins. If they land on opposite sides (coin1 != coin2) player 2 wins.
+
+| | H | T |
+|--|--|--|
+| H | **1,-1** | **-1,1** |
+| T | **-1,1** | **1,-1** |
+
+- Every strategy here is a Nash equilibrium
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyOTM4MzE0OSwtMTY0MzM0NTY1OSwyMT
+eyJoaXN0b3J5IjpbLTIzMTE3NTA0MiwtMTY0MzM0NTY1OSwyMT
 EwNDA3MDQ1XX0=
 -->
