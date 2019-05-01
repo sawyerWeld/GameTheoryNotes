@@ -12,8 +12,14 @@
  - They'd both rather be together
  - Therefore a > c, b < d
 
-### 2. Consid
+### 2. Consider the following constant sum game:
+|  | H | T |
+|--|--|--|
+| H | 1,-1 |  |
+| T |  | 0,? |
+- What is ?
+- For the game to be constant sum, 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjk4OTg4N119
+eyJoaXN0b3J5IjpbODg1MzIyMjg5XX0=
 -->
