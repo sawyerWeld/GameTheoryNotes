@@ -37,7 +37,13 @@
 - When P1 plays 'Not', for player 2
 - Not is the best response ✔
 
-### 5.
+### 5. Consider the following game in which two firms must decide whether to open a new plant or not:
+| Firm 1\ Firm 2 | Build | Not
+|--|--|--|
+| Build	| 1,1 | 3,0
+| Not | 0,3 | 2,2
+
+- Find all pure strategy Na
 
 ### 6. Consider the following game in which two firms must decide whether to open a new plant or not:
 | P1/P2 | Left | Right |
@@ -50,5 +56,5 @@
 
 ### 7. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjI5MzgyMV19
+eyJoaXN0b3J5IjpbMTc1NzY5NTU0XX0=
 -->
