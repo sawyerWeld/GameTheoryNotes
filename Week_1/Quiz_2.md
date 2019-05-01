@@ -45,6 +45,7 @@
 
 - Find all pure strategy Nash equilibrium:
 - :( ?
+- Only (Not
 
 ### 6. Consider the game:
 | P1/P2 | Left | Right |
@@ -59,8 +60,11 @@
 | P1/P2 | Left | Right |
 |--|--|--|
 | Left | 3,3 | 1,1 |
-| Right | 1,4 | 0,2 |
-
+| Right | 1,4 | 1,1 |
+- Which of the following outcomes is Pareto-optimal?
+- 3,3 ✔
+- 1,4 ✔
+- 1,1 ❌
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTAyOTA2N119
+eyJoaXN0b3J5IjpbMTgxNjA5OTkwNF19
 -->
