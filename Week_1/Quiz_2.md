@@ -18,8 +18,18 @@
 | H | 1,-1 |  |
 | T |  | 0,? |
 - What is ?
-- For the game to be constant sum, 
+- For the game to be constant sum, ? = 0
+
+### 3. n people guess an integer between 1 and 100, and the winner is the player whose guess is closest to the mean of the guesses + 1 (ties broken randomly). Which of the following is an equilibrium:
+
+ - All 1
+ - All 50
+ - All 75
+ - All 100
+ - ? :(
+
+### 4. Consider the collective-action game
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1MzIyMjg5XX0=
+eyJoaXN0b3J5IjpbMTc5MDY3NDc0OV19
 -->
