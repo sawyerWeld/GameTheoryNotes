@@ -4,7 +4,7 @@
 A set of actions from all players in which no agent can improve their utility by deviating from their selected action.
 #### Prisoner's Delima
 
-| (A,B) | C | D |
+| | C | D |
 | --- | --- | --- |
 | C |-1,-1 | -4,0 |
 | D | 0,-4 | **-3,-3** |
@@ -28,6 +28,6 @@ A set of actions from all players in which no agent can improve their utility by
 | F | 0,0 | **1,2** |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4OTgwOTY3LC0xNjQzMzQ1NjU5LDIxMT
-A0MDcwNDVdfQ==
+eyJoaXN0b3J5IjpbLTgzMzU1OTk1NSwtMTY0MzM0NTY1OSwyMT
+EwNDA3MDQ1XX0=
 -->
