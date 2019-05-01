@@ -28,8 +28,13 @@
  - All 100
  - ? :(
 
-### 4. Consider the collective-action game
+### 4. Consider the collective-action game:
+| P1/P2 | Revolt | Not |
+|--|--|--|
+| Revolt | 2,2 | -1,1 |
+| Not | 1,-1 | 0,0 |
+- When
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MDY3NDc0OV19
+eyJoaXN0b3J5IjpbLTExMzUzOTUzMF19
 -->
