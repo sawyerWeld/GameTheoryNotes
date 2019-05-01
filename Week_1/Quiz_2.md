@@ -12,8 +12,8 @@
  - They'd both rather be together
  - Therefore a > c, b < d
 
-
+### 2. Consid
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDAyNjcyMl19
+eyJoaXN0b3J5IjpbMjAxNjk4OTg4N119
 -->
