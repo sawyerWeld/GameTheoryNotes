@@ -10,7 +10,7 @@
  - P1 prefers to see a movie over going to the theater
  - P2 prefers going to the theater over seeing a movie
  - They'd both rather be together
- - Therefore a > c, b < d
+ - Therefore a > c, b < d ✔
 
 ### 2. Consider the following constant sum game:
 |  | H | T |
@@ -18,7 +18,7 @@
 | H | 1,-1 |  |
 | T |  | 0,? |
 - What is ?
-- For the game to be constant sum, ? = 0
+- For the game to be constant sum, ? = 0 ✔
 
 ### 3. n people guess an integer between 1 and 100, and the winner is the player whose guess is closest to the mean of the guesses + 1 (ties broken randomly). Which of the following is an equilibrium:
 
@@ -33,8 +33,11 @@
 |--|--|--|
 | Revolt | 2,2 | -1,1 |
 | Not | 1,-1 | 0,0 |
-- When
 
+- When P1 plays 'Not', for player 2
+- Not is the best response ✔
+
+### 5. Consider the following game in which two firms must decide whether to open a new plant or not:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzUzOTUzMF19
+eyJoaXN0b3J5IjpbMTY3NTU2MDg4MF19
 -->
