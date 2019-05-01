@@ -27,7 +27,9 @@ A set of actions from all players in which no agent can improve their utility by
 | B  | **2,1** | 0,0 |
 | F | 0,0 | **1,2** |
 
+#### Matching Pennies
+- Two people flip coins. If they land on the same side (coin1 = coin2) player 1 wins. If they land on opposite sides (coin1 != coin2) player 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzU1OTk1NSwtMTY0MzM0NTY1OSwyMT
+eyJoaXN0b3J5IjpbMjAyOTM4MzE0OSwtMTY0MzM0NTY1OSwyMT
 EwNDA3MDQ1XX0=
 -->
