@@ -35,8 +35,8 @@ A set of actions from all players in which no agent can improve their utility by
 | H | **1,-1** | **-1,1** |
 | T | **-1,1** | **1,-1** |
 
-- Every strategy here is a Nash equilibrium
+- There is **no** pure strategy nash equilibrium
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTE3NTA0MiwtMTY0MzM0NTY1OSwyMT
-EwNDA3MDQ1XX0=
+eyJoaXN0b3J5IjpbLTEzMTk5ODgxODUsLTE2NDMzNDU2NTksMj
+ExMDQwNzA0NV19
 -->
