@@ -37,14 +37,18 @@
 - When P1 plays 'Not', for player 2
 - Not is the best response ✔
 
-### 5. Consider the following game in which two firms must decide whether to open a new plant or not:
+### 5.
+
+### 6. Consider the following game in which two firms must decide whether to open a new plant or not:
 | P1/P2 | Left | Right |
 |--|--|--|
-| Left | 2,1 | 1,1 |
-| Right | 0,1 | 0,2 |
+| Up | 2,1 | 1,1 |
+| Down | 0,1 | 0,2 |
 
 - Which of the following has a strictly dominant strategy?
-- Player 1. 
+- Player 1. 'Up' is strictly dominant because every outcome in 'Up' is better than every outcome in 'Down'.
+
+### 7. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2NTY0MjMxXX0=
+eyJoaXN0b3J5IjpbLTQ5MjI5MzgyMV19
 -->
