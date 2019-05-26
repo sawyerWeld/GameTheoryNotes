@@ -23,9 +23,9 @@
 ### 3. n people guess an integer between 1 and 100, and the winner is the player whose guess is closest to the mean of the guesses + 1 (ties broken randomly). Which of the following is an equilibrium:
 
  - All 1
- - All 50 ❌
+ - All 50 
  - All 75
- - All 100
+ - All 100 ✔
 
 ### 4. Consider the collective-action game:
 | P1/P2 | Revolt | Not |
@@ -43,8 +43,7 @@
 | Not | 0,3 | 2,2
 
 - Find all pure strategy Nash equilibrium:
-- :( ?
-- Only (Not,Not) ❌
+- Only (Build,Build) ✔
 
 ### 6. Consider the game:
 | P1/P2 | Left | Right |
@@ -64,6 +63,3 @@
 - 3,3 ✔
 - 1,4 ✔
 - 1,1 ❌
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTMxMjc4Ml19
--->
