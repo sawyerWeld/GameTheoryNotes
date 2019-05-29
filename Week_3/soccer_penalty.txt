@@ -1,0 +1,28 @@
+Kicker/Goalie Game
+K | G
+-----
+L | L -> 58,42
+L | R -> 95,05
+R | L -> 93,07
+R | R -> 70,30
+
+Pg is the probability that the goalie goes left, 1-Pg the probability they go right
+Pk is the probability that the kicker goes left, 1-Pk the probability they go right 
+
+The goalies Pg and 1-Pg must make the kicker indifferent
+
+Kicker must be indifferent
+E(Kicker Left) = E(Kicker Right)
+.58Pg + .95(1-Pg) = .93Pg + .70(1-Pg)
+.58Pg + .95 - .95Pg = .93Pg + .70 - .70Pg
+-.6Pg = -.25
+Pg = .4167
+
+The kickers Pk and 1-Pk must make the goalie indifferent
+
+Goalie must be indifferent
+E(Goalie Left) = E(Goalie Left)
+.42Pk + .07(1-Pk) = .05Pk + .30(1-Pk)
+.42Pk + .07 - .07Pk = .05Pk + .30 - .30Pk
+.60Pk = .23
+Pk = .3833
