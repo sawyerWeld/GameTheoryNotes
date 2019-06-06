@@ -83,8 +83,7 @@ Some famous example strategies for the cooperation game:
 - Tit-for-tat: Start out cooperating, if your opponent defects, defect in the next round and then go back to cooperating.
 - Trigger: Start out cooperating. If your opponent defects, defect forever.
 
-We will now prove this theorem.
-*Theorem*: We can characterize a set of payoffs that are achievable under equilibrium without having to enumerate the equilibria.
+We can actually characterize a set of payoffs that are achievable under equilibrium without having to enumerate the equilibria.
 
 Consider any n-player game G = (N,A,u) and any payoff vector r = r1...rn which encodes the average utility a player recieves following a strategy at the infinite.
 
@@ -100,19 +99,20 @@ i's minmax value is the amount of utility i an get when -i play a minmax strateg
 <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{a\in&space;A}\alpha_\alpha&space;=&space;1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{a\in&space;A}\alpha_\alpha&space;=&space;1" title="\sum_{a\in A}\alpha_\alpha = 1" /></a>
 
 Enforceability gives a lower bound and feasability provides an upper bound.
+Consider the follwing game:
 
-
-| 2,0 | 0,0 |
+|     |     |
 | --- | --- |
+| 2,0 | 0,0 |
 | 0,0 | 0,2 |
 
+The payoff vector (1,1) is enforceable because we can put a weight of .5 on the (0,2) and (2,0) cells. Each player's payoff is .5\*2 + 0\*0. The .5 weights are the alpha values in the above equations. The payoff vector (2,2) is unenforceable. For both players to recieve a payoff of 2, (0,2) and (2,0) both need a weight of one, which means the sum of weights is not equal to 1, the second equation is violated.
 
-|<span style="font-weight:normal">heading</span>|
-|:---------------------------------------------:|
-|              content is king                  |
+*Theorem*: Consider any n-player game G and payoff vector r1...rn.
+- If r is the payoff in any Nash equilibrium of the infinitely repeated G with average rewards, then for each player i, ri is enforceable.
+- If r is both feasible and enforceable, then r is the payoff in some Nash equilibrium of the infinitely repeated G with average rewards.
 
-
-
+Basically, if youre getting as much as much as you could if everyone were punishing you as much as possible, and the reward vector is mathematically feasible, then that reward vector is the reward vector of some Nash equilibrium. This theorem doesn't tell us what that nash equilibrium is, only that it exists.
 
 
 
