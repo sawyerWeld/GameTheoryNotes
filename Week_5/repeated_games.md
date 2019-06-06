@@ -87,7 +87,20 @@ We will now prove this theorem.
 *Theorem*: We can characterize a set of payoffs that are achievable under equilibrium without having to enumerate the equilibria.
 
 Consider any n-player game G = (N,A,u) and any payoff vector r = r1...rn which encodes the average utility a player recieves following a strategy at the infinite.
-Let vi = min max (s_-i, s_i)
+
+Let vi = min max (s_-i, si)
+
+i's minmax value is the amount of utility i an get when -i play a minmax strategy against him. Meaning -i is unconcerned with their own utility and would instead like to punish i to the furthest extent possible. Players -i play the strategies from their mixed strategy spaces such that the best response to those strategies by i is minimized.
+
+*Definition*: A payoff profile r is enforceable if ri >= vi.
+
+*Definition*: A payoff profile r is feasible if there exist rational, non-negative values a_a such that for all i we can express ri as
+<a href="https://www.codecogs.com/eqnedit.php?latex=r_i&space;=&space;\sum_{a\in&space;A}\alpha_\alpha&space;u_i(a)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_i&space;=&space;\sum_{a\in&space;A}\alpha_\alpha&space;u_i(a)" title="r_i = \sum_{a\in A}\alpha_\alpha u_i(a)" /></a>
+with
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{a\in&space;A}\alpha_\alpha&space;=&space;1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{a\in&space;A}\alpha_\alpha&space;=&space;1" title="\sum_{a\in A}\alpha_\alpha = 1" /></a>
+
+
+
 
 
 
