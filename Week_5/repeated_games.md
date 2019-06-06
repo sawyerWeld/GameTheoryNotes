@@ -36,7 +36,26 @@ Markov Decision Processes (MDP) are single-agent stochastic games.
 
 ## Learning in Repeated Games
 
-todo
+Two examples of learning in repeated games: Fictitious Play and No-regret Learning. Learning in game theory is a rich subject so this is a brief overview.
+
+### Ficticious Play
+
+Each turn play a best response to the assessed strategy of the opponent. Observe the opponent's actual play and update beliefs accordingly. We have a model of other agents play, where our model is just the counts of what actions the other agents played.
+
+- for every a in A, let w(a) be the number of times the opponent has played a.
+- asses the opponent's strategy using those counts
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sigma(a)=\frac{w(a)}{\sum_{a'\in&space;A}w(a')}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sigma(a)=\frac{w(a)}{\sum_{a'\in&space;A}w(a')}" title="\sigma(a)=\frac{w(a)}{\sum_{a'\in A}w(a')}" /></a>
+
+- play a best response the the assesed strategy
+
+
+
+
+
+
+
+
 
 
 
