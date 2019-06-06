@@ -51,6 +51,27 @@ Each turn play a best response to the assessed strategy of the opponent. Observe
 
 Example: Matching pennies. Player 1 would like to match pennies, player 2 would like to mismatch pennies. Let player 1's initial beliefs about player 2 be (1.5,2) meaning he thinks player 2 will play H 1.5/3.5 percent of the time and T 2/3.5 percent of the time and he would like to match player 2, he plays T. Let player 2's initial beliefs about player 1 be (2,1.5) meaning he will play H 2/3.5 percent of the time and  T 1.5/3.5 percent of the time. He plays T because he would like to mismatch. Player 1 wins round one. Player 1's beliefs are now (1.5,3) and player 2's beliefs are now (2,2.5). Player 1 plays T and player 2 plays H. Repeat...
 
+Note: Pure strategies here don't converge, but over time you'll see that each player plays Heads  half the time and Tails half the time. This is also the mixed strategy nash equilibrium of the matching pennies game.
+
+*Theorem*: If the empirical distribution of each player's strategies converges in ficticious play, then it converges to a Nash equilibrium.
+
+*Theorem*: Each of the following are sufficient conditions fo the empirical frequencies of play to converge in ficticious play:
+- The game is zero sum
+- The game is solvable by iterated elimination of stricly dominated strategies
+- The game is a potential game (we'll get to this later)
+- The game is 2 x n and has generic payoffs
+
+### No-regret learning
+
+The regret an agent experiences at time t for not having played s is R_t(s) = a_t - a_t(s).
+A learning rule exhibits no regret if for any pure strategy of the agent s it holds that Pr([lim ing R_t(s)] <= 0) = 1. This means that at the limit, agents play with on regret. As you go to the limit, the probability with which your regret converges to 0 is 1.
+
+Example learning rule that exhibits no regret: Regret Matching.
+At each time step each action is chosen with probability proportional to its regret. That is,
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sigma_i^{t&plus;1}&space;=&space;\frac{R^t(s)}{\sum_{s\in&space;S_i}R^t(s')}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sigma_i^{t&plus;1}&space;=&space;\frac{R^t(s)}{\sum_{s\in&space;S_i}R^t(s')}" title="\sigma_i^{t+1} = \frac{R^t(s)}{\sum_{s\in S_i}R^t(s')}" /></a>
+
+where the left side of the equation is the probability that agent i plays pure strategy s at time t + 1.
 
 
 
