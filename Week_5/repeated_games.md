@@ -49,6 +49,10 @@ Each turn play a best response to the assessed strategy of the opponent. Observe
 
 - play a best response the the assesed strategy
 
+Example: Matching pennies. Player 1 would like to match pennies, player 2 would like to mismatch pennies. Let player 1's initial beliefs about player 2 be (1.5,2) meaning he thinks player 2 will play H 1.5/3.5 percent of the time and T 2/3.5 percent of the time and he would like to match player 2, he plays T. Let player 2's initial beliefs about player 1 be (2,1.5) meaning he will play H 2/3.5 percent of the time and  T 1.5/3.5 percent of the time. He plays T because he would like to mismatch. Player 1 wins round one. Player 1's beliefs are now (1.5,3) and player 2's beliefs are now (2,2.5). Player 1 plays T and player 2 plays H. Repeat...
+
+
+
 
 
 
