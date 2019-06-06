@@ -18,3 +18,28 @@ This is a bit counterintuitive. Consider the situation of getting -1000000 utili
 There are two interpretations of this:
 - The agent cares more about their well being in the near term than in the far term
 - The agent feels that there is a chance the game will not be played in the far term. The chance of the game being played at iteration j is the discount factor beta to the jth power.
+
+## Stochastic Games
+
+The main idea is as follows: What if we don't always repeat the same stage game.
+Stochastic games are a generalization of repeated games where the game we play is not necessarily the same game. How we play the stage games determines probabilistically which stage game we play next. 
+
+Defined by a tuple (Q,N,A,P,R)
+
+- Q is finite set of states
+- N is a finite set of players
+- A = A1...An where Ai is a finite set of actions available to player i.
+- P : QxAxQ->[0,1] is the transition probability function. P(q,a,qhat) is the probability of transitioning from state q to state qhat after joint action a.
+- R = r1...rn where ri : QxA->Real is a real valued payoff function for player i given a state and an action.
+
+Markov Decision Processes (MDP) are single-agent stochastic games.
+
+## Learning in Repeated Games
+
+todo
+
+
+
+
+
+
