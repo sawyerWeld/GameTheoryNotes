@@ -96,7 +96,7 @@ i's minmax value is the amount of utility i an get when -i play a minmax strateg
 
 *Definition*: A payoff profile r is feasible if there exist rational, non-negative values a_a such that for all i we can express ri as
 <a href="https://www.codecogs.com/eqnedit.php?latex=r_i&space;=&space;\sum_{a\in&space;A}\alpha_\alpha&space;u_i(a)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r_i&space;=&space;\sum_{a\in&space;A}\alpha_\alpha&space;u_i(a)" title="r_i = \sum_{a\in A}\alpha_\alpha u_i(a)" /></a>
-with
+  with  
 <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{a\in&space;A}\alpha_\alpha&space;=&space;1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{a\in&space;A}\alpha_\alpha&space;=&space;1" title="\sum_{a\in A}\alpha_\alpha = 1" /></a>
 
 
