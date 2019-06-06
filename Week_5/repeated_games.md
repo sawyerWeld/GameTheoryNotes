@@ -73,8 +73,21 @@ At each time step each action is chosen with probability proportional to its reg
 
 where the left side of the equation is the probability that agent i plays pure strategy s at time t + 1.
 
+At least in finite games, regret matching converges to a correlated equilibrium.
 
+## Equilibria of Infinitely Repeated Games
 
+What is a pure strategy in an infinitely repeated game? A choice of action at every decision point, but there are infinite decision points because we play infinitely many stage games.
+
+Some famous example strategies for the cooperation game: 
+- Tit-for-tat: Start out cooperating, if your opponent defects, defect in the next round and then go back to cooperating.
+- Trigger: Start out cooperating. If your opponent defects, defect forever.
+
+We will now prove this theorem.
+*Theorem*: We can characterize a set of payoffs that are achievable under equilibrium without having to enumerate the equilibria.
+
+Consider any n-player game G = (N,A,u) and any payoff vector r = r1...rn which encodes the average utility a player recieves following a strategy at the infinite.
+Let vi = min max (s_-i, s_i)
 
 
 
