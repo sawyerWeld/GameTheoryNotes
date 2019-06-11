@@ -124,6 +124,49 @@ The future is uncertain, we are often motivated more by what we can get today th
 - Payoff from a play of actions a1,...,at
 <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_t&space;\beta_i^tu_i(a^t)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_t&space;\beta_i^tu_i(a^t)" title="\sum_t \beta_i^tu_i(a^t)" /></a>
 
+A strategy in a repeated game is a set of actions to take given a history of a given length.
+
+Repetedly playing a Nash equilibrium of the stage game is always a subgame perfect equilibrium of the repeated game.
+
+Say we would like to convince two players of the repeated prisoner's dillema to cooperate. 
+
+|     | C   | D   |
+| --- | --- | --- |
+| C   | 3,3 | 0,5 |
+| D   | 5,0 | 1,1 |
+
+The players are playing the 'Grim Trigger' strategy, in which if their opponent ever defects, they will defect forever. What discount factor is necesssary to keep players from triggering this defection?
+
+Notes: Let Beta = B here. Sum of a^n as n->inf = 1/(1-a).
+
+Cooperate forever yields 3 + 3B + 3B^2 + 3B^3... = 3 * 1/(1-B) = 3/(1-B)
+
+Defect immediately yields 5 + 1B + 1B^2 + 1B^3... = 5 + B/(1-B)
+
+Cooperate - Defect = -2 + 2B + 2B^2 + 2B^3... = -2 + 2B/(1-B)
+
+The difference is nonnegative if -2 + 2B/(1-B) >= 0. 
+
+The difference is nonnegative if 2B/(1-B) >= 2. 
+
+The difference is nonnegative if 2B >= 2-2B.
+
+The difference is nonnegative if 4B >= 2.
+
+The difference is nonnegative if B >= 1/2.
+
+If people care about tomorrow half as much as today, they are incentivized to cooperate!
+
+If we increase the yield from defecting when your opponent cooperates from 5 to 10, people must care about tomorrow at least 7/9 as much as today, B >= 7/9.
+
+## A Folk Theorem for Dicounted Repeated Games
+
+
+
+
+
+
+
 
 
 
