@@ -117,6 +117,13 @@ Basically, if youre getting as much as much as you could if everyone were punish
 
 ## Discounted Repeated Games
 
+The future is uncertain, we are often motivated more by what we can get today than what we can get in the future. Additionally, we must think about if people will punish me if I misbehave today.
+
+- Stage game (N,A,u)
+- Discount factors: Beta_i,...,Beta_n, Beta_i in [0,1]
+- Payoff from a play of actions a1,...,at
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_t&space;\beta_i^tu_i(a^t)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_t&space;\beta_i^tu_i(a^t)" title="\sum_t \beta_i^tu_i(a^t)" /></a>
+
 
 
 
