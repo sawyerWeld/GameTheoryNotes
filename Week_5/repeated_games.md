@@ -149,10 +149,6 @@ The difference is nonnegative if -2 + 2B/(1-B) >= 0.
 
 The difference is nonnegative if 2B/(1-B) >= 2. 
 
-The difference is nonnegative if 2B >= 2-2B.
-
-The difference is nonnegative if 4B >= 2.
-
 The difference is nonnegative if B >= 1/2.
 
 If people care about tomorrow half as much as today, they are incentivized to cooperate!
@@ -160,6 +156,17 @@ If people care about tomorrow half as much as today, they are incentivized to co
 If we increase the yield from defecting when your opponent cooperates from 5 to 10, people must care about tomorrow at least 7/9 as much as today, B >= 7/9.
 
 ## A Folk Theorem for Dicounted Repeated Games
+
+- Consider a finite normal form game G = (N,A,u)
+- Let a = (a1...an) be a Nash equilibrium of the stage game G
+- If a' = (a'1...a'n) is such that ui(a') > ui(a) for all i, then there exists a discount factor B<1, such that if Bi>B for all i, then there exists a subgame perfect equilibrium of the infinite repetition of G that has a' played in every period on the equilibrium path.
+
+What this means: take any game and find an equilibrium on it. find a payout vector that is better for all parties, and there is some B value that would sustain that as an infinitely repeated discounted game. In the case of the previous section, the game was the prisoner's dillema, the equilibrium was (D,D)->(1,1), and the better state was (C,C)->(3,3).
+
+
+
+
+
 
 
 
