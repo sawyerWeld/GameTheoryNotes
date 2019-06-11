@@ -115,6 +115,17 @@ The payoff vector (1,1) is enforceable because we can put a weight of .5 on the 
 Basically, if youre getting as much as much as you could if everyone were punishing you as much as possible, and the reward vector is mathematically feasible, then that reward vector is the reward vector of some Nash equilibrium. This theorem doesn't tell us what that nash equilibrium is, only that it exists.
 
 
+## Discounted Repeated Games
+
+
+
+
+
+
+
+
+
+
 
 
 
