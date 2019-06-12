@@ -4,6 +4,13 @@ Three players together can obtain 1 to share, any 2 can obtain 0.8, and one play
 
 - (1/3, 1/3, 1/3)
 
+### redo
+
+If two members left the grand coalition, their payout improves from 1/3 to 2/5.
+(2/5,2/5,0) could be improved for player 3 by leaving with player 1 or player 2.
+
+Thus, the core is empty.
+
 ## #2
 
 - There is a market for an indivisibel good with B buyers and S sellers.
@@ -19,6 +26,10 @@ Note: I don't know what a reservation price is, that wasn't in the lectures.
 - Each seller receives 0 and each buyer 1. Yes.
 - Each seller receives 1/2 and each buyer receives 1/2. No. Could total to 3/2.
 
+### redo
+
+I meant each seller gets 1 and each buyer 0, was a short circuit in my thinking or something. The sum has to be 1, which only option 1 provides.
+
 ## #3
 
 Same as above, but B=2 and S=2. 
@@ -28,6 +39,10 @@ Same as above, but B=2 and S=2.
 - Each seller receives 1/2 and each buyer receives 1/2.
 
 I think the answer is all 3?
+
+### note
+
+All three is correct, but it seems like 3 should not be correct, as the goods are indivisible.
 
 ## #4
 
@@ -69,6 +84,12 @@ Which allocations are in the core? Form is (c,w1,w2)
 - (2.5,0.5,1)
 - (4,0,0)
 
+No one agent in any of these can leave the grand coalition to improve their utility because v(a)=0 for all a in {c,w1,w2}. 
+
+- If c and w1|w2 left (2,1,1), their shapley values would stay (2,1), so it is in the core.
+- If c and w1|w2 left (2.5,0.5,1), (c,w1) would not change, and (c,w2) would be worse, so it is in the core.
+- If c and w1|w2 left (4,0,0), nobody would gain anything, but c would suffer, so it is in the core.
+
 ## #7 
 
 Same as above, find the Shapley value of the capitalist.
@@ -105,6 +126,7 @@ Shapley(w1) = (1/2)(0)+(1/3)(1)+(1/6)(3) = 1/3 + 1/2 = 5/6
 
 ## #9
 
+Adding a dummy agent will not change the Shapley values of c,w1,or w2.
 
 
 
