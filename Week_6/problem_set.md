@@ -119,10 +119,20 @@ Given p=1/2, which is a pure strategy bayesian equilibria? Form=(1's strat, 2's 
 
 - (L, L, P). 1/2(2,1) + 1/2(0,2) = (1,1.5) yes
 - (P, P, L). 1/2(1,0) + 1/2(0,1) = (0.5,0.5) P2 should never play P if they are 'Meet' type.
-- (L, P, P). 1/2(0,0) + 1/2(1,0) = (0.5,0) P2 should never play P if they are 'Meet' type.
+- (L, P, P). 1/2(0,0) + 1/2(0,2) = (0,0.5) P2 should never play P if they are 'Meet' type.
+
+## #7
+
+Same situation as above, but p=1/4, p2 usually is of the 'Avoid' type.
+
+P2's strategy remains unchanged because they know their type. P1's strategy is subject to change  at the modification of p. Now P1 may with to play P instead of L. They substitute a 1/4 chance of getting 2 (e.v. 0.5) for a 3/4 chance of 1 (e.v. 0.75).
+
+- (L, L, P). 1/4(2,1) + 3/4(0,2) = (0.5,1.75) Moving to (P, L, P) gives 1/4(0,1)+3/4(1,0)=(0.75,0.25) so this is not an equilibrium anymore.
+- (P, P, L). 1/4(1,0) + 3/4(0,1) = (0.25,0.75). P2 benefits from changing to (P, L, L).
+- (L, P, P). 1/4(0,0) + 3/4(0,2) = (0,1.5). P1 benefits from changing to (P, P, P). 
 
 
-
+### Result: 7/7 (100%) First try!
 
 
 
