@@ -39,12 +39,16 @@ p = 1/2, regardless of X.
 ```
 
 P2 would like to equalize the benefit that P1 gets from Left and Right.
-P1's payoff for left is Xq + 0(q-1) = Xq.
-P1's payoff for Right is 0q + 2(q-1) = 2q-2.
+P1's payoff for left is Xq + 0(1-q) = Xq.
+P1's payoff for Right is 0q + 2(1-q) = 2-2q.
 
 ```
-Xq = 2q-2
-As X increases, so must q.
+Xq = 2(1-q)
+Xq = 2-2q
+Xq+2q = 2
+q(X+2) = 2
+q = 2/(X+2)
+As X increases, q decreases.
 ```
 
 ## #3
@@ -132,7 +136,17 @@ q = 1/2
 
 ## #5
 
+Same as above, but the pirate can now invesitage any two locations, so he has pure strategies xy, yz, and xz. The king has 3 pure strategies x,y,and z.
 
+What are the mixed strategy profiles?
+
+|        | Look xy | Look yz | Look xz |
+| ------ | ------- | ------- | ------- |
+| Hide x | 2,9     | 5,4     | 2,9     |
+| Hide y | 2,9     | 2,9     | 5,4     |
+| Hide z | 5,4     | 2,9     | 2,9     |
+
+There is nothing better than random selection here.
 
 
 
