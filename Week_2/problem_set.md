@@ -95,14 +95,42 @@ Form=(King,Pirate). Found=(2,9) Hidden=(5,4).
 
 The king can hide the treasure in locations x,y,and z.
 
-The pirate can inspect x and y or just z (z is far away). What is a mixed strategy Nash equilibrium where p is the probability of hiding in x or y and (1-p) is the probability of hiding in z?
+The pirate can inspect x and y or just z (z is far away). What is a mixed strategy Nash equilibrium where p is the probability of hiding in xy and (1-p) is the probability of hiding in z?
 
-|             | Look x or y | Look z |
-| ----------- | ----------- | ------ |
-| Hide x or y | 2,9         | 5,4    |
-| Hide z      | 5,4         | 2,9    |
+|         | Look xy | Look z |
+| ------- | ------- | ------ |
+| Hide xy | 2,9     | 5,4    |
+| Hide z  | 5,4     | 2,9    |
 
+The king would like to equalize the pirates utility from looking (x or y) or z.
 
+Pirate's payout from xy is 9p + 4(1-p).
+
+Pirate's payout form z is 4p + 9(1-p).
+
+```
+9p + 4(1-p) = 4p + 9(1-p)
+9p + 4 - 4p = 4p + 9 - 9p
+5p + 4 = -5p + 9
+10p = 5
+p = 1/2
+```
+
+The pirate would like to equalize the king's utility from hiding (x or y) or z.
+
+King's payout from xy is 2q + 5(1-q).
+
+King's payout form z is 5q + 2(1-q).
+
+```
+2q + 5(1-q) = 5q + 2(1-q)
+2q - 5q + 5 = 5q - 2q + 2
+-3q + 5 = 3q + 2
+3 = 6q
+q = 1/2
+```
+
+## #5
 
 
 
