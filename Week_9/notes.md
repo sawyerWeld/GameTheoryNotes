@@ -44,6 +44,38 @@ The condorcet winner here is B, even though it only got 3/1000 of first place vo
 ```
 In total C beats A 501 to 499. Here we have two voting schemes that seem reasonable which give different votes and neither are condorcet consistent.
 
+## Impossibility of Non-Paradoxical Social Welfare Functions
+
+Pareto Effeciency (PE): W is pareto efficient if whenever all agents agree on the ordering of two outcomes, the social welfare function should also select that ordering.
+
+Independance of Irrelevant Alternatives (IIA): W is IIA if the selected ordering between two outcomes depends only on the relative orderings they are given by the agents.
+
+Dictatorship: W has a dictator if there is any single agent such that the social welfare function only uses that agent's preferences. Dictatorship satistfies both PE and IIA.
+
+Arrow 1951: Any social welfare function over 3 or more outcomes that is PE and IIA must be dictatorial.
+
+The next video proves Arrow's theorem. It is very good and recommended.
+
+## Impossibility of Non-Paradoxical Social Welfare 2
+
+Social choice functions have the same problems as social welfare functions. PE and IIA have to be redefined to the scope of a single winner election. IIA is replaced with monotonicity.
+
+Monotonicity: An outcome o must remain the winner whenever it was already winning and the support for it is increased.
+
+Muller-Satterthwaite 1977: Any social choice function that is weakly PE and monotonic is dictatorial.
+
+## Single-Peaked Preferences
+
+Sometime's votes preferences have nice properties. One example is when alternatives can be ordered left to right. In this special case agents have a most preferred candidate and the support for other alternatives fall off as you go left or right. If you graph how much they like the candidates on the y axis and the alternatives on the x axis, there will be a single peak at their most preferred candidate.
+
+Median voting: With an odd number of voters in a single peaked environment, the median candidate is always the condorcet winner.
+
+
+
+
+
+
+
 
 
 
