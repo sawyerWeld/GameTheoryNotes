@@ -97,6 +97,17 @@ Consider a social choice function C: Mapping linear orderings Ln to outcomes in 
 
 ie there is a some agent for whome the choice function maximizes their preferences.
 
+In practice we can circumvent the Gibbard-Satterthwaite theorem in various ways:
+ 
+- Use a weaker form of implementation. The result holds for dominant strategy implementation only, does not apply to Bayes-Nash implementation.
+
+- Relax the asusmption that people are allowed to have arbitrary total orderings, limit the size of the action space. One example we've already seen is single-peaked voting.
+
+- Trade. Have a fixed price in advance for an indivisible good, the only actions are yes or no.
+
+## Transferable Utility
+
+
 
 
 
