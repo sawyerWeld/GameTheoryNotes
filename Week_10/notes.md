@@ -67,7 +67,7 @@ Lets look at a direct mechanism for this. Direct mechanism means the action set 
 
 One possible direct mechanism would translate each type to that type's most preferred candidate and then plurality voting takes place. M(tilde,hat,bar) = (a,b,c). This is a manipulable mechanism because bar type voters might want to self report as tilde type.
 
-## Relationship Principle
+## Revelation Principle
 
 Any social choice function that can be implemented at all by any mechanism can be implemented by a truthful, direct mechanism. 
 
