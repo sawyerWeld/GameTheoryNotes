@@ -76,7 +76,11 @@ Any social choice function that can be implemented at all by any mechanism can b
 
 Surprisingly, every mechanism can be converted to one of these. The brief explanation is that we can take any indirect mecahnism and imbed it in a new direct mechanism. We ask for agent's types and then convert those into what that type of agent would have reported in the equilibrium of the indirect game. The players dont need to lie because the mechanism is doing that for them!
 
-## 
+## Revelation Principle Examples
+
+This example uses the same scenario from the mechanism design example. The indirect mechanism was the plurality vote mechanism. Instead of giving their type, they chose a candidate, so that was an indirect mechanism. The revelation principle tells us that for any equilibrium of that mechanism there exists an equivalent direct truthful mechanism with the same equilibrium.
+
+
 
 
 
