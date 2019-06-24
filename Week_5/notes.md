@@ -25,6 +25,15 @@ A mechanism (for Bayesian game) is a pair (A,M) where
 
 As mechanism designers we get to specify the action set for the agents and the mapping from actions to outcomes, we cant change the possible outcome space, agent's preferences, or type spaces.
 
+The problem is to pick a mechanism that will cause rational agents to behave in a desired way.
+
+Definition of implementation in dominant strategies: Given a Bayesian game setting, a mechanism is an implementation in dominant strategies of a social choice function C (over N and O) if for any vector of utility functions u, the game has an equilibrium in dominant strategies, and in any such equlibrium a* we have M(a*) = C(u).
+
+Definition (Bayes-Nash implementation): Given a Bayesian game setting, a mechanism is an implementation in Bayes-Nash equilibrium of a social choice function C (over N and O) if there exists a Bayes-Nash equilibrium of the game of incomplete information such that for every theta in Ө and every action profile a in A that can arise given type profile theta in this equilibrium, we have that M(a) = C(u(.,theta)). 
+
+What that means is that for every type of agent and for every action profile that can arise in this equilibrium, it is the case that the outcome defined by that action profile is a social choice function of the agents given their times.
+
+There is a problem here: in a bayes nash equilibrium problem, there could be more than one equilibrium. Which one should I expect agents to play? Agents could mis-coordinate and play none of the equilibria.
 
 
 
