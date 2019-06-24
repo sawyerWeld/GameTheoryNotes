@@ -115,6 +115,16 @@ where o = (x,p) is an element of O (an outcome) and ui : X x Θ -> R.
 
 What does this mean? Agents are playing a bayesian game, but the set of outputs now includes a set of transfers (for instance maybe we play a game, we recieve utility for how we played, and also i payed you some amount of money or other transferable utility). pi can be thought of as 'payment' i where a negative payment means the agent is gaining utility.
 
+We can split the mechanism into a choice rule and a payment rule (or transfer rule). x in X is a 'nonmonetary' outcome and pi in Reals is a 'monetary' payment that agent i makes to the mechanism.
+
+There are a couple of implications. ui(x,θ) is not influenced by the amount of money/wealth an agent has, and agents don't care how much others are made to pay (though they can care about how the choice affects others.)
+
+A direct mecahnism in a quasilinear setting is a pair (x,p) specifying a basic outcome x(θ) and a profile of payments or transfers p(θ) = p1(θ),...,pn(θ). 
+
+Preferences have private values, or satisfy conditional utility independence, if each agent i's utility function can be written as ui(o,θi), it does not depend on other agents' types.
+
+An agent's type becomes their valuation function: i's value for choice x is vi(x) = ui(x,θi), the maximum amount i would be willing to pay to get x.
+
 
 
 
