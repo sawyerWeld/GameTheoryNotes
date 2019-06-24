@@ -44,13 +44,39 @@ There are two forms of implementation: Direct and Indirect. Direct implementatio
 
 Remember theta_i describes the type of agent i. We could have a type theta_tilde_i with utility 3 for a, 2 for b, and 1 for c. The value of u(o,theta_i) depends only on theta_i. u(a,theta_tilde_i) = 3. In this example there are three theta_is with different hats. Instead of being verbose, I refer to them as tilde hat and bar. 
 
-| Type  | a   | b   | c   | pref  |
-| ----- | --- | --- | --- | ----- |
-| tilde | 3   | 2   | 1   | a>b>c |
-| hat   | 2   | 3   | 1   | b>a>c |
-| bar   | 2   | 1   | 3   | c>a>b |
+| Type  | a   | b   | c   | pref  | prob |
+| ----- | --- | --- | --- | ----- | ---- |
+| tilde | 3   | 2   | 1   | a>b>c | .49  |
+| hat   | 2   | 3   | 1   | b>a>c | .49  |
+| bar   | 2   | 1   | 3   | c>a>b | .02  |
 
+Types are independent across agents. We have a common prior on the types of agents. .49 for tilde, .49 for hat, and .02 for bar.
 
+What would a plurality voting mechanism look like here? Remember the mechanism is a pair (A,M).
+
+- A = A1 ... An where Ai = {a,b,c}
+- M maps the A to an outcome. In the case of plurality, the mechanism picks the candidate named by the most agents. If there is a tie it randomly selects one of the tied candidates.
+
+How do we design our mechanism?
+
+First note there are no dominant strategies. The optimal action depends on what you think the other agents will do (will you be breaking some tie? fundamental problem with plurality). 
+
+There are many Bayes-Nash equilibrium for this, for instance if everyone votes for the same candidate, nobody can improve their utility by divering (assuming n>5 agents). Tilde and bar voting for a and hat voting for b is an equilibrium because c is best off voting for the candidate which gives them 2 utility when a vote for their favorite is not sensical (Duverger's Law).
+
+Lets look at a direct mechanism for this. Direct mechanism means the action set is the type set of the agents, we are not asking the agents what canidate they want but rather what type they are, and we can infer what they want from the utility that type derives from each candidate.
+
+One possible direct mechanism would translate each type to that type's most preferred candidate and then plurality voting takes place. M(tilde,hat,bar) = (a,b,c). This is a manipulable mechanism because bar type voters might want to self report as tilde type.
+
+## Relationship Principle
+
+Any social choice function that can be implemented at all by any mechanism can be implemented by a truthful, direct mechanism. 
+
+- A mechanism is direct if the input to the mechanism from each agent is just one single input. A simulatenous move bayesian game.
+- A direct mechanism is truthful if the equilibrium strategy for all agents is to be completely truthful, to simply reveal their type.
+
+Surprisingly, every mechanism can be converted to one of these. The brief explanation is that we can take any indirect mecahnism and imbed it in a new direct mechanism. We ask for agent's types and then convert those into what that type of agent would have reported in the equilibrium of the indirect game. The players dont need to lie because the mechanism is doing that for them!
+
+## 
 
 
 
