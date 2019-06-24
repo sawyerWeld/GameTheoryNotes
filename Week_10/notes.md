@@ -44,10 +44,18 @@ There are two forms of implementation: Direct and Indirect. Direct implementatio
 
 Remember theta_i describes the type of agent i. We could have a type theta_tilde_i with utility 3 for a, 2 for b, and 1 for c. The value of u(o,theta_i) depends only on theta_i. u(a,theta_tilde_i) = 3. In this example there are three theta_is with different hats. Instead of being verbose, I refer to them as tilde hat and bar. 
 
-| Type  | a   | b   | c   |
-| ----- | --- | --- | --- |
-| tilde | 3   | 2   | 1   |
-| hat   | 2   | 3   | 1   |
-| bar   | 2   | 1   | 3   |
+| Type  | a   | b   | c   | pref  |
+| ----- | --- | --- | --- | ----- |
+| tilde | 3   | 2   | 1   | a>b>c |
+| hat   | 2   | 3   | 1   | b>a>c |
+| bar   | 2   | 1   | 3   | c>a>b |
+
+
+
+
+
+
+
+
 
 
