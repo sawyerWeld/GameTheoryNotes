@@ -80,7 +80,29 @@ Surprisingly, every mechanism can be converted to one of these. The brief explan
 
 This example uses the same scenario from the mechanism design example. The indirect mechanism was the plurality vote mechanism. Instead of agents giving their type, they chose a candidate, so that was an indirect mechanism. The revelation principle tells us that for any equilibrium of that mechanism there exists an equivalent direct truthful mechanism with the same equilibrium.
 
-Direct mechanism - voter states their type {tilde,hat,bar}. To match the equilibria in the indirect mechanism where everyone voted for the same candidate, we can make a mechanism where all types are mapped to votes for a or all votes for b or all votes for c. To match the equilibrium in indirect mechanism where everyone voted a or b, we can translate all tilde and bar to votes for a and all hats to votes for b.
+Direct mechanism - voter states their type {tilde,hat,bar}. To match the equilibria in the indirect mechanism where everyone voted for the same candidate, we can make a mechanism where all types are mapped to votes for a or all votes for b or all votes for c. To match the Duvergets Law equilibrium in indirect mechanism where everyone voted a or b, we can translate all tilde and bar to votes for a and all hats to votes for b.
+
+## Impossibility of General, Dominant-Strategy Implementation
+
+Theorem (Gibbard-Satterthwaite):
+
+Consider a social choice function C: Mapping linear orderings Ln to outcomes in O. Suppose that 
+
+- there are at least three outcomes so that |O| >= 3, and
+- C is onto; that is, for every o in O there is a preference profile [>] in Ln such that C([>]) = o. (for every outcome there is some set of votes that would produce that outcome ie no outcomes are impossible to achieve. This is easy, for instance if every voter chooses preference  j, the outcome should be j. Now every outcome j is achievable.)
+
+- Truthful reporting of preferences is a dominant strategy for each agent iff C is dictatorial: there exists some agent i for whom 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=C([\succ])&space;=&space;\textrm{argmax}_O\succ_i&space;\forall&space;[\succ]\in&space;L^n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C([\succ])&space;=&space;\textrm{argmax}_O\succ_i&space;\forall&space;[\succ]\in&space;L^n" title="C([\succ]) = \textrm{argmax}_O\succ_i \forall [\succ]\in L^n" /></a>
+
+ie there is a some agent for whome the choice function maximizes their preferences.
+
+
+
+
+
+
+
 
 
 
