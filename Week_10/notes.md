@@ -107,7 +107,13 @@ In practice we can circumvent the Gibbard-Satterthwaite theorem in various ways:
 
 ## Transferable Utility
 
+Agents have quasilinear preferences with transferable utility in an n-player bayesian game when the set of outcomes is O = X x Rn(real numbers) for a set X, if the utility of an agent i given joint type θ can be written 
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=u_i(o,\theta)&space;=&space;u_i(x,\theta)&space;-&space;p_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?u_i(o,\theta)&space;=&space;u_i(x,\theta)&space;-&space;p_i" title="u_i(o,\theta) = u_i(x,\theta) - p_i" /></a>
+
+where o = (x,p) is an element of O (an outcome) and ui : X x Θ -> R. 
+
+What does this mean? Agents are playing a bayesian game, but the set of outputs now includes a set of transfers (for instance maybe we play a game, we recieve utility for how we played, and also i payed you some amount of money or other transferable utility). pi can be thought of as 'payment' i where a negative payment means the agent is gaining utility.
 
 
 
