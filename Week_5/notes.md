@@ -33,8 +33,9 @@ Definition (Bayes-Nash implementation): Given a Bayesian game setting, a mechani
 
 What that means is that for every type of agent and for every action profile that can arise in this equilibrium, it is the case that the outcome defined by that action profile is a social choice function of the agents given their times.
 
-There is a problem here: in a bayes nash equilibrium problem, there could be more than one equilibrium. Which one should I expect agents to play? Agents could mis-coordinate and play none of the equilibria.
+There is a problem here: in a bayes nash equilibrium problem, there could be more than one equilibrium. Which one should I expect agents to play? Agents could mis-coordinate and play none of the equilibria. We can require that the desired outcome arises in the only equilibrium, in every equilibrium, or in at least one equilibrium.
 
+There are two forms of implementation: Direct and Indirect. Direct implementation implies agents each simultaneously sending a single message to the center. Indirect implies agents send a sequence of messages; information may be partially revealed about the messages that were previously sent.
 
 
 
