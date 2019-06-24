@@ -78,7 +78,11 @@ Surprisingly, every mechanism can be converted to one of these. The brief explan
 
 ## Revelation Principle Examples
 
-This example uses the same scenario from the mechanism design example. The indirect mechanism was the plurality vote mechanism. Instead of giving their type, they chose a candidate, so that was an indirect mechanism. The revelation principle tells us that for any equilibrium of that mechanism there exists an equivalent direct truthful mechanism with the same equilibrium.
+This example uses the same scenario from the mechanism design example. The indirect mechanism was the plurality vote mechanism. Instead of agents giving their type, they chose a candidate, so that was an indirect mechanism. The revelation principle tells us that for any equilibrium of that mechanism there exists an equivalent direct truthful mechanism with the same equilibrium.
+
+Direct mechanism - voter states their type {tilde,hat,bar}. To match the equilibria in the indirect mechanism where everyone voted for the same candidate, we can make a mechanism where all types are mapped to votes for a or all votes for b or all votes for c. To match the equilibrium in indirect mechanism where everyone voted a or b, we can translate all tilde and bar to votes for a and all hats to votes for b.
+
+
 
 
 
