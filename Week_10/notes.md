@@ -125,7 +125,31 @@ Preferences have private values, or satisfy conditional utility independence, if
 
 An agent's type becomes their valuation function: i's value for choice x is vi(x) = ui(x,θi), the maximum amount i would be willing to pay to get x.
 
+## Transferable Utility Example
 
+A group of citizens are voting on if their city should undertake a project.
+
+N = {1,...n,} is a set of citizens, n is odd
+
+O = {0,1}: 0 = do nothing, 1 = undertake the project
+
+θi is now a valuation function, the utilities for outcomes 0,1 are vi(0),vi(1). A person's type is represented by a vector expressing their valuations. vi = (0,4) means the agent gains 0 from the status quo and 4 from undertaking the project.
+
+Example direct mechanism: agents announce either type (0,4) or type (0,-2) if the majority are (0,4) the project is accepted and no compensation is given, otherwise it is rejected and no compensation is given. This mechanism doesn't account for the fact that total utility is not maximized (type (0,4) gets twice as much util as (0,-2) loses) (not necesarrily a bad thing).
+
+Consider this mechanism: if m = n/3 of agents announce type (0,4) then: the project is accepted, pi = (n-m / m) 2 if vi = (0,4) and pi = -2 if vi = (0,-2), otherwise the project is rejected and pi = 0 for all vi. In this mechanism, the people who are for the project get a stronger vote but we compensate the people negatively affected by the decision. This mechanism maximizes total utility, however truth may no longer be an equilibrium! If you are a (0,4), you may purposely misreport as (0,2) if you think the project will certainly pass, in which case you get the util from the project and you receive compensation.
+
+## Mechanism Design as an Optimization Problem
+
+We can understand mechanism design as the problem of finding the 'best' possible mechanism, given constraints about how it operates.
+
+Definition: Truthfulness. A transferrable utility mechanism is truthful if it is direct and for all i, for all vi, agent i's equilibrium strategy is to adopt the strategy vhat_i = vi.
+
+Definition: Efficiency. A transferrable utility mechanism is strictly Pareto efficient, or just 'efficient', if in equilibrium it selects a choice x such that 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\forall&space;v&space;\forall&space;x^',&space;\sum_i&space;v_i(x)&space;\geq&space;\sum_i&space;v_i(x')" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\forall&space;v&space;\forall&space;x^',&space;\sum_i&space;v_i(x)&space;\geq&space;\sum_i&space;v_i(x')" title="\forall v \forall x^', \sum_i v_i(x) \geq \sum_i v_i(x')" /></a>
+
+In other words, an mechanism is efficient if it selects the choice that maximizes the sums of the agents' actual valuations disregarding the payments they have to make. This is different than the standard game theoretical notion of Pareto efficiency meaning not being Pareto dominated. 
 
 
 
