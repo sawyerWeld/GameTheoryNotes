@@ -1,4 +1,4 @@
-## Mechanism Design
+# Mechanism Design
 
 Instead of taking a game as given and trying to analyze it, we're trying to design the games. We might for instance want to create games that reduce bargaining or reduce energy or resources wasted playing the game. When is it that we can get socially efficient outcomes?
 
