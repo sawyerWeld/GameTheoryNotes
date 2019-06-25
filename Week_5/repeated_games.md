@@ -1,4 +1,4 @@
-## Repeated Games
+# Repeated Games
 
 Repeated games are games that are played repeatedly over time. The example given is as follows:
 Members of OPEC sell lots of oil for cheap. If they all agreed to pump less oil they could drive up the price. But, if one member cheated a bit and produced more than agreed upon, that member would make more money. If enough people do this, the alliance falls apart and everyone makes less money. This is much like a repeated prisoner's dilemma.
