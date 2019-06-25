@@ -1,4 +1,4 @@
-## Introduction to social choice
+# Introduction to social choice
 
 Sometimes vote aggregation is not so simple, as can be seen with the presedential election in which Ralph Nader caused the race between Al Gore and George Bush to go awry.
 
