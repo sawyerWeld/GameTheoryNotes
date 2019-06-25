@@ -212,7 +212,15 @@ One might naively say that fairness should be about making the utility gained by
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\mathbb{E}_v&space;\left[&space;\textrm{min}_{i\in&space;N}&space;v_i(\chi(s(v)))&space;-&space;p_i(s(v))&space;\right]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathbb{E}_v&space;\left[&space;\textrm{min}_{i\in&space;N}&space;v_i(\chi(s(v)))&space;-&space;p_i(s(v))&space;\right]" title="\mathbb{E}_v \left[ \textrm{min}_{i\in N} v_i(\chi(s(v))) - p_i(s(v)) \right]" /></a>
 
-- 
+Sometimes efficiency is impossible, but we can try to get close. To minimize the worst-case ration between optimal social welfare and the social welfare achieved by the given mechanism, we use price-of-anarchy minimization.
+
+- Price-of-anarchy minimization: a transferrable utility mechanism minimizes the price of anarchy when it minimizes
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\textrm{max}_{v\in&space;V}&space;\frac{\textrm{max}_{x\in&space;X}&space;\sum_{i\in&space;N}&space;v_i(x)}{\sum_{i&space;\in&space;N}&space;v_i(\chi(s(v)))}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\textrm{max}_{v\in&space;V}&space;\frac{\textrm{max}_{x\in&space;X}&space;\sum_{i\in&space;N}&space;v_i(x)}{\sum_{i&space;\in&space;N}&space;v_i(\chi(s(v)))}" title="\textrm{max}_{v\in V} \frac{\textrm{max}_{x\in X} \sum_{i\in N} v_i(x)}{\sum_{i \in N} v_i(\chi(s(v)))}" /></a>
+
+where s(v) denotes the agents' equilibrium strategy profile in the worst equilibrium of the mechanism, ie the equilibrium in which the denominator is the smallest.
+
+
 
 
 
