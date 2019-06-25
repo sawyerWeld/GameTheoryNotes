@@ -1,4 +1,4 @@
-# Week 1 Notes
+# Introduction to Game Theory
 
 ## Nash Equilibrium
 A set of actions from all players in which no agent can improve their utility by deviating from their selected action.
@@ -36,7 +36,3 @@ A set of actions from all players in which no agent can improve their utility by
 | T | -1,1 | 1,-1 |
 
 - There is **no** pure strategy nash equilibrium
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTM3OTg4NzMsLTEzMTk5ODgxODUsLT
-E2NDMzNDU2NTksMjExMDQwNzA0NV19
--->
