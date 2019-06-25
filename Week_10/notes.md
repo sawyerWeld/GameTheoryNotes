@@ -143,6 +143,8 @@ Consider this mechanism: if m = n/3 of agents announce type (0,4) then: the proj
 
 We can understand mechanism design as the problem of finding the 'best' possible mechanism, given constraints about how it operates.
 
+### Constraints
+
 Definition: Truthfulness. A transferrable utility mechanism is truthful if it is direct and for all i, for all vi, agent i's equilibrium strategy is to adopt the strategy vhat_i = vi.
 
 Definition: Efficiency. A transferrable utility mechanism is strictly Pareto efficient, or just 'efficient', if in equilibrium it selects a choice x such that 
@@ -177,7 +179,25 @@ where s is the equilibrium strategy profile. No agent loses by participating in 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\forall&space;i&space;\forall&space;v,&space;v_i(\chi(s(v))-p_i(s(v))&space;\geq&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\forall&space;i&space;\forall&space;v,&space;v_i(\chi(s(v))-p_i(s(v))&space;\geq&space;0" title="\forall i \forall v, v_i(\chi(s(v))-p_i(s(v)) \geq 0" /></a>
 
-This is for when you don't want to average over everybody's types, perhaps you don't have a good prior for people's types. This is a stronger condition that states that you never want to lose utility in any situation under the given mechanism. 
+This is for when you don't want to average over everybody's types, perhaps you don't have a good prior for people's types. This is a stronger condition that states that you never want to lose utility in any situation under the given mechanism.
+
+- Tractability: a mechanism is tractible when for all vhat, x(vhat) and p(vhat) can be computed polynomial time. We have to be able to determine the outcomes and payments in a computationally feasible manner.
+
+### Objective functions
+
+The mechanism designer can choose among mechanisms that satisfy the desired constraints by adding an objective function such as revenue maximization.
+
+- Revenue maximization: A mechanism is revenue maximizing when, among the set of functions x and p that satisfy the other constraints, the mechanism selects the x and p that maximize 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\mathbb{E}_\theta&space;\sum_ip_i(s(\theta))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathbb{E}_\theta&space;\sum_ip_i(s(\theta))" title="\mathbb{E}_\theta \sum_ip_i(s(\theta))" /></a>
+
+where s(θ) denotes the agents' equilibrium strategy profile.
+
+- Revenue minimization: Perhaps we intend to not make money, but budget balance may be an impossible constraint. We can set weak budget balance as a constraint with the following objective. A transferrable utility mechanism is revenue minimizing when, among the set of functions x and p that satisfy the constraints, the mechanism selects the x and p that minimize 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\textrm{max}_v&space;\sum_ip_i(s(\theta))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\textrm{max}_v&space;\sum_ip_i(s(\theta))" title="\textrm{max}_v \sum_ip_i(s(\theta))" /></a>
+
+where s(v) denotes the agents' equilibrium strategy profile. This minimizes the worst case instead of figuring with an expected value such as with revenue maximization.
 
 
 
