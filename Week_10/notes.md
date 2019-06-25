@@ -171,9 +171,13 @@ The mechanism never takes a loss, but it may make a profit.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\forall&space;i&space;\forall&space;v_i,&space;\mathbb{E}_{v_{-i}|v_i}v_i(\chi(s_i(v_i),s_{-i}(v_{-i})))-p_i(s_i(v_i),s_{-i}(v_{-i}))&space;\geq&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\forall&space;i&space;\forall&space;v_i,&space;\mathbb{E}_{v_{-i}|v_i}v_i(\chi(s_i(v_i),s_{-i}(v_{-i})))-p_i(s_i(v_i),s_{-i}(v_{-i}))&space;\geq&space;0" title="\forall i \forall v_i, \mathbb{E}_{v_{-i}|v_i}v_i(\chi(s_i(v_i),s_{-i}(v_{-i})))-p_i(s_i(v_i),s_{-i}(v_{-i})) \geq 0" /></a>
 
-where s is the equilibrium strategy profile. No agent loses by participating in the mechanism. It is called ex interim because it holds for every posisble valuation for agent i, but averages over the possible valuations of the other agents.
+where s is the equilibrium strategy profile. No agent loses by participating in the mechanism. Agents don't get to choose if they participate, but we'd like to say that none of them would have not participated if they had the option on the grounds that they expect to lose utility. It is called ex interim because it holds for every posisble valuation for agent i, but averages over the possible valuations of the other agents. 
 
-- 
+- Ex post individual rationality: a mechanism is ex post individual rational when
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\forall&space;i&space;\forall&space;v,&space;v_i(\chi(s(v))-p_i(s(v))&space;\geq&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\forall&space;i&space;\forall&space;v,&space;v_i(\chi(s(v))-p_i(s(v))&space;\geq&space;0" title="\forall i \forall v, v_i(\chi(s(v))-p_i(s(v)) \geq 0" /></a>
+
+This is for when you don't want to average over everybody's types, perhaps you don't have a good prior for people's types. This is a stronger condition that states that you never want to lose utility in any situation under the given mechanism. 
 
 
 
