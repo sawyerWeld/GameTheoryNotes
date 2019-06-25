@@ -149,7 +149,31 @@ Definition: Efficiency. A transferrable utility mechanism is strictly Pareto eff
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\forall&space;v&space;\forall&space;x^',&space;\sum_i&space;v_i(x)&space;\geq&space;\sum_i&space;v_i(x')" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\forall&space;v&space;\forall&space;x^',&space;\sum_i&space;v_i(x)&space;\geq&space;\sum_i&space;v_i(x')" title="\forall v \forall x^', \sum_i v_i(x) \geq \sum_i v_i(x')" /></a>
 
-In other words, an mechanism is efficient if it selects the choice that maximizes the sums of the agents' actual valuations disregarding the payments they have to make. This is different than the standard game theoretical notion of Pareto efficiency meaning not being Pareto dominated. 
+In other words, an mechanism is efficient if it selects the choice that maximizes the sums of the agents' actual valuations disregarding the payments they have to make. This is different than the standard game theoretical notion of Pareto efficiency meaning not being Pareto dominated. This is also called 'economic efficiency' to differentiate it from computational efficiency. It is also called social-welfare maximization.
+
+- Definition: Budget Balance. A transferrable utility mechanism is budget balanced when
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\forall&space;v,&space;\sum_i&space;p_i(s(v))&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\forall&space;v,&space;\sum_i&space;p_i(s(v))&space;=&space;0" title="\forall v, \sum_i p_i(s(v)) = 0" /></a>
+
+where s is the equilibrium strategy profile. In other words, regardless of the agent's types, the mecahnism collects and disburses the same amount of money to and from the agents. 
+
+ - Relaxed version - weak budget balance:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\forall&space;v,&space;\sum_i&space;p_i(s(v))&space;\geq&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\forall&space;v,&space;\sum_i&space;p_i(s(v))&space;\geq&space;0" title="\forall v, \sum_i p_i(s(v)) \geq 0" /></a>
+
+The mechanism never takes a loss, but it may make a profit.
+
+- Ex ante: the mechanism bust break even only on expectation
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\mathbb{E}_v&space;\sum_i&space;p_i(s(v))&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathbb{E}_v&space;\sum_i&space;p_i(s(v))&space;=&space;0" title="\mathbb{E}_v \sum_i p_i(s(v)) = 0" /></a>
+
+- Ex interim individual rationality: a mechanism is ex iterim individual rationality when 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\forall&space;i&space;\forall&space;v_i,&space;\mathbb{E}_{v_{-i}|v_i}v_i(\chi(s_i(v_i),s_{-i}(v_{-i})))-p_i(s_i(v_i),s_{-i}(v_{-i}))&space;\geq&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\forall&space;i&space;\forall&space;v_i,&space;\mathbb{E}_{v_{-i}|v_i}v_i(\chi(s_i(v_i),s_{-i}(v_{-i})))-p_i(s_i(v_i),s_{-i}(v_{-i}))&space;\geq&space;0" title="\forall i \forall v_i, \mathbb{E}_{v_{-i}|v_i}v_i(\chi(s_i(v_i),s_{-i}(v_{-i})))-p_i(s_i(v_i),s_{-i}(v_{-i})) \geq 0" /></a>
+
+where s is the equilibrium strategy profile. No agent loses by participating in the mechanism. It is called ex interim because it holds for every posisble valuation for agent i, but averages over the possible valuations of the other agents.
+
+- 
 
 
 
