@@ -199,6 +199,21 @@ where s(θ) denotes the agents' equilibrium strategy profile.
 
 where s(v) denotes the agents' equilibrium strategy profile. This minimizes the worst case instead of figuring with an expected value such as with revenue maximization.
 
+### Fairness
+
+Fairness is hard to define. Which is fairer?
+
+- charge all agents $100 dollars and make a choice that everyone hates
+- charge all agents $0 and make a choice that some agents hate and some like
+
+One might naively say that fairness should be about making the utility gained by everyone equal, but the second option is clearly preferrable in this example. The first one is 'fair' because it is the same for eveyone, but doing something awful to everyone is a bad way to design a mechanism.
+
+- Maxmin fairness: maximize the hapiness of the least-happy agent. Choose some x and p that maximize
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\mathbb{E}_v&space;\left[&space;\textrm{min}_{i\in&space;N}&space;v_i(\chi(s(v)))&space;-&space;p_i(s(v))&space;\right]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathbb{E}_v&space;\left[&space;\textrm{min}_{i\in&space;N}&space;v_i(\chi(s(v)))&space;-&space;p_i(s(v))&space;\right]" title="\mathbb{E}_v \left[ \textrm{min}_{i\in N} v_i(\chi(s(v))) - p_i(s(v)) \right]" /></a>
+
+- 
+
 
 
 
