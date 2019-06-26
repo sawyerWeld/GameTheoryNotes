@@ -13,6 +13,8 @@ The mechanism will select from {a,b} with probability proportional to the votes,
 
 There should therefore be a BN equilibrium of eveybody choosing the candidate they like best, but there aren't the equilibria such as all voting a or all voting b that we saw with plurality voting.
 
+True/True
+
 ## Part 2: Impossibility of General, Dominant-Strategy Implementations
 
 ### #2
@@ -78,6 +80,8 @@ Mechanism A gives an expected utility of (5x3)/4, which is 3/4 larger than that 
 - Only A.
 
 #### redo apparently this is wrong
+
+I think neither voting rule is efficient. Neither.
 
 ### #6
 
