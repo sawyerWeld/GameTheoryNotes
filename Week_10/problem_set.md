@@ -49,44 +49,64 @@ For example under B, if player 1 prefers a, votes a and w = v1 = a is selected t
 
 Which voting rules are truthful (so that voting for a player's most preferred alternative is a dominant strategy)?
 
-| other votes | i chooses a | i chooses b |
-| ----------- | ----------- | ----------- |
-| a, a        | a wins, 4   | a wins, 6   |
-| a, b        | a wins, 4   | b wins, 1   |
-| b, a        | a wins, 4   | b wins, 1   |
-| b, b        | b wins, 1   | b wins, 1   |
+| other votes | i chooses a         | i chooses b             |
+| ----------- | ------------------- | ----------------------- |
+| a, a        | (1)4 = 4            | (2/3)6 + (1/3)-1 = 10/3 |
+| a, b        | (2/3)4 + (1/3)1 = 3 | (1/3)6 + (2/3)-1 = 5/3  |
+| b, a        | (2/3)4 + (1/3)1 = 3 | (1/3)6 + (2/3)-1 = 5/3  |
+| b, b        | (1/3)4 + (2/3)1 = 2 | (1)-1 = -1              |
 
-As we can see, if we are want a and we thing the other players also prefer a, we can vote b to get 6 util instead of 4. Of course the other players could do the same thing, but truthfullness is not necesarrily dominant in the case of B.
+As we can see, if we are want a and we thing the other players also prefer a, we can vote b to get 6 util instead of 4 possibly, but the expected value of this is less than simply playing a because the mechanism could randomly select our vote for b.
 
-- Only A is a truthful mechanism
+- Both A and B are truthful mechanisms
 
 ### #5
 
-As above, which voting rule(s) are efficient in terms of always choosing an outocme that maximizes the total sum of utilities?
+As above, which voting rule(s) are efficient in terms of always choosing an outcome that maximizes the total sum of utilities?
 
-Mechanism B is not efficient. If everyone wants a and votes a, everyone gets 4 util instead of the 5 they'd get under mechanism B.
+Using the table I made for the previous problem, under truthful reporting and uniformly random types, the expected utility of playing under Mechanism B is (4+3+3+2)/4 = 3. Under Mechanism A with truthful reporting, we'd get this:
 
-Mechanism A is efficient.
+| other votes | i chooses a |
+| ----------- | ----------- |
+| a, a        | 5           |
+| a, b        | 5           |
+| b, a        | 5           |
+| b, b        | 0           |
+
+Mechanism A gives an expected utility of (5x3)/4, which is 3/4 larger than that from Mechanism B.
 
 - Only A.
+
+#### redo apparently this is wrong
 
 ### #6
 
 As above, which voting rules are budget balanced?
 
-- Only A. Because N = 3 is odd, the revenue is never 0, even if the expected value is 0 (which it isn't necessarily, I haven't calculated it).
+- Only A. Because N = 3 is odd, the revenue is never 0, even if the expected value is 0 (which it isn't necessarily, I haven't calculated it yet).
 
 ### #7
 
 As above, which voting rules are ex interim individually rational under truthful reporting?
 
-- Both A and B. Ex interim requires agents to never lose utility by participating in the mechanism. No agent evey loses util in mechanism A, so it holds. Under truthful reporting, the only time an agent loses util in B is when their preferred candidate wins, which gives them 4 net util. 4 > 0, so ex interim is satisfied.
+Ex interim requires agents to never lose utility by participating in the mechanism. As seen from the tables made for the previous questions, truthful reporting never leads to negative payoff in either mechanism, so ex interim holds for both.
 
-### #6
+
+### #8
 
 Which voitng rule earns a higher expected revenue for whoever runs the mechanism?
 
-- The expected revenue of B is greater. Revenue of A is always 0. Revenue of B is 3 under unanimous voters. Revenue is 1 is split 2/1. Revenue cannot be negative for B because the majority of people cannot lose, as the mechanism uses majority rule.
+- The expected revenue of B is greater. Revenue of A is always 0, while B always has some payout > 0.
+
+### #9
+
+Which voting rule gives a higher maxmin fairness?
+
+Maxmin fairness is the the util recieved by the agent who recieves the least util.
+
+- Mechanism B has higher maxmin fairness (1 versus 0).
+
+
 
 
 
