@@ -34,6 +34,8 @@ Which of the mechanisms are 'Groves' mechanisms?
 
 Review is necessary.
 
+#### Guessed Y, this was wrong.
+
 ### #3
 
 Which of the mechanisms are weakly budget balanced?
@@ -72,6 +74,68 @@ Suppose we wish to use VCG mechanism to allocate a block of bandwidth to one of 
 | Y     | -12          | 5            | 0            |
 | Z     | 0            | 0            | 4            |
 
+### #6
+
+To which company will VCG allocate the block?
+
+Give to X totals -2, give to Y gives -10, and give to Z gives 4.
+
+- The mechanism allocates to company Z
+
+### #7
+
+What will the winning company's payment be?
+
+If Z were not in the mechanism VCG would allocate to X and -2 util would be given in total. Giving to Z means no other agent recieves utility. -2 - 0 = -2.
+
+- -2
+
+## Part 3: VCG with Incomplete Reports
+
+Suppose that we are using a VCG mechanism to allocate a pair of shoes among three agents. Each agent can receive one shoe, both shoes, or neither shoe. The feasible outcomes are those where each shoe is allocated to exactly one agent.
+
+The agents value the shoes as follows where, for instance, left indicates that the agent gets only the left shoe.
+
+| Agent | none | left | right | left,right |
+| ----- | ---- | ---- | ----- | ---------- |
+| X     | 0    | 2    | 4     | 6          |
+| Y     | 0    | 0    | 0     | 7          |
+| Z     | 0    | 4    | 2     | 6          |
+
+### #8 
+
+To which agent will the VCG mechanism allocate the shoes?
+
+- The maximum sum utility comes from awarding both shoes to Y
+
+#### Somehow this is wrong?
+
+### #9
+
+Imagine the agents lie, reporting as follows:
+
+| Agent | none | left | right | left,right |
+| ----- | ---- | ---- | ----- | ---------- |
+| X     | 0    | 0    | 0     | 6          |
+| Y     | 0    | 0    | 0     | 7          |
+| Z     | 0    | 0    | 0     | 6          |
+
+How will VCG allocate now?
+
+- Both to Y still
+
+### #10
+
+Consider the following two statements:
+
+1. The agents are playing dominant strategies when they lie according to the second table.
+2. The agents are playing a Nash equilibrium, when they lie according to the second table.
+
+Are they true?
+
+- There are no profitable deviations, so it must be a dominant strategy and a Nash equilibrium.
+
+#### Also false
 
 
 
