@@ -8,7 +8,6 @@ Suppose we wish to allocate an item to a set of 10 agents. For every integer v=1
 
 - Z: Each agent pays a $2 fee, and then the outcome and payments are according to the VCG on top of those payments.
 
-
 Work:
 
 What will the payments be under X? No agent recieves payment except 10, because no others are pivotal. Agent 10 will recieve payment. If agent 10 does not participate, 9 utility is gained by other agents. If agent 10 does participate, all other agents recieve 0 utility. Therefore agent 10 has to pay 9 (recieves 1 utility).
@@ -34,7 +33,7 @@ Which of the mechanisms are 'Groves' mechanisms?
 
 Review is necessary.
 
-#### Guessed Y, this was wrong.
+#### Guessed Y, this was wrong. Groves just means VCG, so this should be just X.
 
 ### #3
 
@@ -106,9 +105,8 @@ The agents value the shoes as follows where, for instance, left indicates that t
 
 To which agent will the VCG mechanism allocate the shoes?
 
-- The maximum sum utility comes from awarding both shoes to Y
+- The right shoe to X and the left shoe to Z.
 
-#### Somehow this is wrong?
 
 ### #9
 
@@ -122,7 +120,7 @@ Imagine the agents lie, reporting as follows:
 
 How will VCG allocate now?
 
-- Both to Y still
+- Both to Y
 
 ### #10
 
@@ -133,9 +131,11 @@ Consider the following two statements:
 
 Are they true?
 
-- There are no profitable deviations, so it must be a dominant strategy and a Nash equilibrium.
+- Reporting full preferences is better for X and Z, so they are not playing a dominant strategy.
+- It is always better for X and Z to report fully, so they are not playing a Nash equilibrium.
 
-#### Also false
+
+#### theyre not both true, theyre not also both false. must be c.
 
 
 
