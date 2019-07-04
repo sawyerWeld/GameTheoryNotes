@@ -22,7 +22,7 @@ What about under Z? Same as X, but everyone pays $2. Agents 1-9 recieve -2 utili
 
 For which mechanism is truth-telling a dominant strategy? 
 
-If truth is a dominant strategy under X, it should be under Z as well. 
+If truth is a dominant strategy under X, it should be under Z as well. The utility recieved under X is the same as those under Z + 2. Truth may not be a dominant strategy under Y
 
 
 
