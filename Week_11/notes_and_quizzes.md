@@ -6,13 +6,13 @@ The Vickrey-Clarke-Groves (VCG) mechanism always chooses the action that produce
 
 The payment given to an agent i is given by
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=p_i(\hat{v})&space;=&space;h_i(\hat{v}_{-i})&space;-&space;\sum_{j\not=i}\hat{v}_j(x(\hat{v}))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p_i(\hat{v})&space;=&space;h_i(\hat{v}_{-i})&space;-&space;\sum_{j\not=i}\hat{v}_j(x(\hat{v}))" title="p_i(\hat{v}) = h_i(\hat{v}_{-i}) - \sum_{j\not=i}\hat{v}_j(x(\hat{v}))" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=p_i(\hat{v})&space;=&space;\mathrm{max}\sum_{j\not=i}\hat{v}_j(x)&space;-&space;\sum_{j\not=i}\hat{v}_j(x(\hat{v}))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p_i(\hat{v})&space;=&space;\mathrm{max}\sum_{j\not=i}\hat{v}_j(x)&space;-&space;\sum_{j\not=i}\hat{v}_j(x(\hat{v}))" title="p_i(\hat{v}) = \mathrm{max}\sum_{j\not=i}\hat{v}_j(x) - \sum_{j\not=i}\hat{v}_j(x(\hat{v}))" /></a>
 
 This is the difference between two parts. The first part
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=h_i(\hat{v}_{-i})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?h_i(\hat{v}_{-i})" title="h_i(\hat{v}_{-i})" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\mathrm{max}\sum_{j\not=i}\hat{v}_j(x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mathrm{max}\sum_{j\not=i}\hat{v}_j(x)" title="\mathrm{max}\sum_{j\not=i}\hat{v}_j(x)" /></a>
 
-is the utility all agents receive in sum if i is not part of the mechanism.
+is the utility all agents receive in sum if i is not part of the mechanism. The mechanism will choose the outcome that maximizes total utility.
 
 The second part 
 
@@ -103,17 +103,3 @@ Which of these properties does the VCG mechanism fail to satisfy in this setting
 What condition guarantees weak budget balance in VCGs, but is not satisfied by this simple exchange setting?
 
 - No single-agent effect
-
-
-
-
-
-
-
-
-
-
-
-
-
-
