@@ -33,7 +33,9 @@ Which of the mechanisms are 'Groves' mechanisms?
 
 Review is necessary.
 
-#### Guessed Y, this was wrong. Groves just means VCG, so this should be just X.
+Groves mechanisms are more general than VCGs. The first part of the payment equation is instead just 'some function of what the other agents recieve as utility'.
+
+#### Not just X or Y, also not X and Y????? 
 
 ### #3
 
@@ -131,22 +133,5 @@ Consider the following two statements:
 
 Are they true?
 
-- Reporting full preferences is better for X and Z, so they are not playing a dominant strategy.
-- It is always better for X and Z to report fully, so they are not playing a Nash equilibrium.
-
-
-#### theyre not both true, theyre not also both false. must be c.
-
-
-
-
-
-
-
-
-
-
-
-
-
+- 1 is false, 2 is true.
 
