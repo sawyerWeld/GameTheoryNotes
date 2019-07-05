@@ -20,6 +20,7 @@ The second part
 
 is the utility all agents except for i recieve if i is included in the mechanism.
 
+A groves mechanism (as opposed to a VCG) is a larger class of mechanisms than a VCG. The first part of a groves mechanism can be any function of the utilities the other agents get.
 
 ## Unit 3.2 Quiz
 
