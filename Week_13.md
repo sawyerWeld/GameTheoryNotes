@@ -66,9 +66,59 @@ For example, if some agents have preferences A > B > C and some others have pref
 
 Specify whether this social welfare function, W, satisfies Pareto efficiency for every finite number of agents and three alternatives.
 
+- PE is satisfied if when all agents agree on the ordering of two outcomes, the social welfare function should as well. This trivially satisfies PE.
 
+### #4
 
+As above, does W satisfy transitivity?
 
+- Yes? What does it mean for a social welfare function to satisfy transitivity?
+
+### #5
+
+Consider an auction with 2 risk-neutral bidders whose private values are independent and drawn from a uniform distribution [0,1]. Which of the following auctions is an implementation in dominant strategies (so that truth is a dominant strategy)?
+
+- Second-price auctions. Truth is not a dominant strategy in first-price auctions.
+
+### #6
+
+Consider voting with 3 players (1,2,3) and 2 alternatives (a,b). Each player has strict preference, and prefers a or b with equal probabilities. Each player gets 5 if her top choice is selected and 0 otherwise. 
+
+Consider the following voting rules, where in both cases each player submits a vote v in {a,b}.
+
+1. The winning alternative w is randomly chosen from the 3 votes submitted by 3 players, with each vote determining the winner with equal probability. Players who voted for the winner pay 1 and players who voted for the loser pay 0.
+
+2. w is selected just as in rule 1. Players who voted for the winner pay 0 and players who voted for the loser pay -1.
+
+For which of the voting rules is being truthful a dominant strategy? 
+
+Given that agent 1 would like A to win, if she plays truthfully, the expected value is as follows:
+
+| Votes    | Rule 1    | Rule 2    |
+| -------- | --------- | --------- |
+| {A, A}   | 5 - 1 = 4 | 5 - 0 = 5 |
+| {A, B}   | 5 - 1 = 4 | 5 - 0 = 5 |
+| {B, A}   | 5 - 1 = 4 | 5 - 0 = 5 |
+| {B, B}   | 0 - 0 = 0 | 0 + 1 = 1 |
+
+Under Rule 1, the expected value of truthfulness is 3. Under Rule 2 it is 4.
+
+If instead agent 1 votes for B, playing not truthfully, the expected value is as follows:
+
+| Votes    | Rule 1     | Rule 2    |
+| -------- | ---------- | --------- |
+| {A, A}   | 5 - 0 = 5  | 5 + 1 = 6 |
+| {A, B}   | 0 - 1 = -1 | 0 + 0 = 0 |
+| {B, A}   | 0 - 1 = -1 | 0 + 0 = 0 |
+| {B, B}   | 0 - 1 = -1 | 0 + 0 = 0 |
+
+Under Rule 1, playing truthfully is not a dominant strategy (if the votes are {A, A}, agent 1 benefits by lying.)
+
+Under Rule 2, the same is true.
+
+- Neither 1 nor 2.
+
+### #7
 
 
 
