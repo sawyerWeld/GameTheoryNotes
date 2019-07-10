@@ -34,7 +34,7 @@ Suppose you're planning to bid in a second-price auction with private values and
 
 True or false: The second price auction has a price of anarchy of 1.0 for the case of private values (i.e. it is always efficient in every Nash equilibrium).
 
-- PoA is unbounded in a second-price auction. Consider two bidders A and B. There is an equilibrium where A bids 0 and B 1 (given that B's valuation is actually 1). Truthfulness is a weakly dominant strategy, not a strongly dominant one.
+- PoA is unbounded in a second-price auction. Consider two bidders A and B. There is an equilibrium where A bids 0 and B 1 (given that B's valuation is actually 1). Truthfulness is a weakly dominant strategy, not a strongly dominant one. False.
 
 ### #7
 
@@ -65,19 +65,25 @@ E(Payment | bid b(v)) = v^2/2
 
 In an all pay auction, you pay whether you win or lose, so the expected value of payment should be the same as their bid, v^2/2.
 
-
-#### Not 0
-
 ### #9 
 
 Consider an optimal auction with two bidders A and B who have independent private values, but where A's valuation is drawn from uniform [0,1] while B's valuation is drawn from uniform [0,3]. If A's valuation realized is 0.8 and B's realized valuation is 1.6, who wins and what does she pay?
 
 - B, 1.5
 
+
+cdf(x) of uniform distribution between 0 and 3 is (x-a)/(b-a) is x/3
+
+pdf(x) of uniform distribution between 0 and 3 is 1/(b-a) is 1/3
+
+``` 
+r* - 1-F(r*) / f(r*) = 0
+r* - 1-r*/3 / 1/3 = 0
+r* = 9/8
+```
+
+Given that r* is 9/8, B should win and pay 9/8???
+
 #### Not B, 0.8
 #### Not B, 1.5
-
-
-
-
-
+#### How can it be that B does not win?
