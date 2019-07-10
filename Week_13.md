@@ -154,6 +154,13 @@ Which outcome will the VCG mechanism choose?
 
 Suppose that you are selling a single item to n bidders with private valuations drawn uniformly and independently from the range [1,2]. What is the optimal (revenue maximizing) reserve price? 
 
+- (n-1)/(n+1)
+
+### #11
+
+A condominium developer wants to sell 4 identical units to a group of bidders. Each bidder wants only a single unit, and their private valuations for the units are 2, 32, 46, 50, 52, 76, and 80 respectively.
+
+The VCG mechanism will maximize the sum utility. The bidders with utilities 50, 52, 76, and 80 will be given units. 
 
 
 
