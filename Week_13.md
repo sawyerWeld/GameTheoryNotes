@@ -158,11 +158,25 @@ Suppose that you are selling a single item to n bidders with private valuations 
 
 ### #11
 
-A condominium developer wants to sell 4 identical units to a group of bidders. Each bidder wants only a single unit, and their private valuations for the units are 2, 32, 46, 50, 52, 76, and 80 respectively.
+A condominium developer wants to sell 4 identical units to a group of bidders. Each bidder wants only a single unit, and their private valuations for the units are 2, 32, 46, 50, 52, 76, and 80 respectively. If the developer uses VCG to allocate units, how much money will she recieve.
 
-The VCG mechanism will maximize the sum utility. The bidders with utilities 50, 52, 76, and 80 will be given units. 
+The VCG mechanism will maximize the sum utility. The bidders with utilities 50, 52, 76, and 80 will be given units.
 
+50 + 52 + 76 + 80 = 258
 
+The payout of the VCG mechanism to agent i is the sum utility for all agents other than i if i did not participate minus the sum utility of of all agents other than i when i does participate.
+
+Bidder 2, 32, and 46: Payouts of 0 for each as these are non-trivial.
+
+Bidder 50: 254 - (258 - 50) = 46
+
+Bidder 52: 252 - (258 - 52) = 46
+
+Bidder 76: 228 - (258 - 76) = 46
+
+Bidder 80: 224 - (258 - 80) = 46
+
+46 * 4 = 184
 
 
 
