@@ -42,21 +42,26 @@ Same situation as #1, but under pairwise elimination with ordering C,A,B,D.
 ```
 Agent 1: A>B>C>D
 
-Agent 2: B>C>D>A
+Agent 2: B>C>D>A 
 Agent 3: C>B>D>A
 Agent 4: D>C>A>B
 
+C>A: 3/3 times
+C>B: 2/3 times
+C>D: 2/3 times
+B>D: 2/3 times
+
 Case 1
-Agent 1: B>A>D>C    C beats A. C ties B, loses. B beats D. B wins.
+Agent 1: A>B>C>D - C>A,B>C,B>D B wins
 
 Case 2
-Agent 1: C>D>A>B    C beats A. C beats B. C beats D. C wins.
+Agent 1: C>D>A>B - C>A,C>B,C>D C wins
 
 Case 3
-Agent 1: A>B>C>D    C beats A. C ties B, loses. B beats D. B wins.
+Agent 1: C>D>B>A - C>A,C>B,C>D C wins
 ```
 
-- Cases 1 and 3 both make B win, so they are chosen.
+- Cases 1 is preferrable for Agent 1
 
 ### #3
 
