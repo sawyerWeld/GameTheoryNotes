@@ -35,7 +35,7 @@ Review is necessary.
 
 Groves mechanisms are more general than VCGs. The first part of the payment equation is instead just 'some function of what the other agents recieve as utility'.
 
-#### Not just X or Y, also not X and Y????? 
+X and Z.
 
 ### #3
 
@@ -134,4 +134,3 @@ Consider the following two statements:
 Are they true?
 
 - 1 is false, 2 is true.
-
