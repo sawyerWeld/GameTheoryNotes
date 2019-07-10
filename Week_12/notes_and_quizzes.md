@@ -17,6 +17,9 @@ The sale price starts very high and is slowly lowered. The first person to claim
 ### English
 The price starts at zero or some reserve price. Bidders increase the price by some minimum bid or they can choose to play a jump-bid, bidding more than the minimum bid. At some point nobody bids any more and the auction is won by the most recent bidder.
 
+### Japanese
+The price starts at 0 and everyone is sitting down. The price increases slowly, with people sitting down to indicate that they would not like to pay that amount. Once they have sat down, they cannot get back up. When the last person sits down, they pay whatever the price was just before they sat.
+
 ## Quizzes
 
 ### Unit 4.2 Quiz
@@ -48,11 +51,3 @@ In a Dutch auction, if your value is p (and you are one of n risk neutral bidder
 What effect does adding a small reserve price to a second price auction have?
 
 - Increased revenue
-
-
-
-
-
-
-
-
