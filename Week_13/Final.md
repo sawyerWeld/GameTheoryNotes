@@ -77,9 +77,7 @@ Specify whether this social welfare function, W, satisfies Pareto efficiency for
 
 As above, does W satisfy transitivity?
 
-- Yes? What does it mean for a social welfare function to satisfy transitivity?
-
-#### The answer is not Yes.
+- Yes.
 
 ### #5
 
@@ -125,7 +123,28 @@ Under Rule 2, the same is true.
 
 - Neither 1 nor 2.
 
-#### Not Neither 1 nor 2
+#### I read the mechanism wrong, I didn't realize the winner is probabalistically selected
+
+With probabalistic selection, EVs of Rule 1 are as follows:
+
+| Rule 1 | Vote A                          | Vote B                          |
+| ------ | ------------------------------- | ------------------------------- |
+| A A    | (1)(5-1) = 4                    | (2/3)(5-0) + (1/3)(0-1) = 3     |
+| A B x2 | (2/3)(5-1) + (1/3)(0) = 2 2/3   | (1/3)(5-0) + (1/3)(0-1) = 1 1/3 |
+| B B    | (1/3)(5-1) + (2/3)(0) = 1 1/3   | (1)(0-1) = -1                   |
+| E.V.   | (4)+2(2 2/3)+(1 1/3) / 4= 2 2/3 | (3)+2(1 1/3)-1 / 4 = 1 1/6      |
+
+EVs of Rule 2 are:
+
+| Rule 2 | Vote A                     | Vote B                    |
+| ------ | -------------------------- | ------------------------- |
+| A A    | (1)(5-0) = 5               | (2/3)(5+1) + (1/3)(0) = 4 |
+| A B x2 | (2/3)(5-0) + (1/3)(-1) = 3 | (1/3)(5+1) + (1/3)(0) = 2 |
+| B B    | (1/3)(5-0) + (2/3)(1) = 1  | (1)(0) = 0                |
+| E.V.   | (5)+2(3)+1 / 4 = 3         | (4)+2(2)+(0) / 4 = 2      |
+
+In both cases, the expected value under Rules 1 and 2 are better by playing truthfully.
+
 
 ### #7
 
@@ -163,9 +182,7 @@ Which outcome will the VCG mechanism choose?
 
 Suppose that you are selling a single item to n bidders with private valuations drawn uniformly and independently from the range [1,2]. What is the optimal (revenue maximizing) reserve price? 
 
-- (n-1)/(n+1)
-
-#### Not (n-1)/(n+1)
+#### The answer is 1.
 
 ### #11
 
@@ -188,20 +205,3 @@ Bidder 76: 228 - (258 - 76) = 46
 Bidder 80: 224 - (258 - 80) = 46
 
 46 * 4 = 184
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
