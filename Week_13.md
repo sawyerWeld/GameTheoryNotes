@@ -120,7 +120,39 @@ Under Rule 2, the same is true.
 
 ### #7
 
+As above, which voting rule is budget balanced?
 
+There are 2 scenarios: the winner gets 2 votes or the winner gets 3 votes. Under Rule 1, the first scenario has a revenue of 2 - 0 = 2. Under the second, 3 - 0 = 3. Neither is budget balanced.
+
+Under Rule 2, the first scenario has a revenue of 0 - 1 = -1 and the second has a revenue of 0 - 0 = 0. This is not budget balanced either, because of the first scenario.
+
+- Neither is budget balanced.
+
+### #8
+
+As above, which voting rule has a higher expected revenue (presuming agents are truthful)?
+
+- 1. Agents always pay more to the mechanism under Rule 1.
+
+### #9
+
+Alice currently has one serving of chocolate, which she values at $5, and Bob has one serving of ice cream, which he values at $7. Carol values the chocolate at $7, the ice cream at $10, and both together at $12.
+
+Suppose we run VCG to determine whether some of Alice and Bob's desserts should be transferred to Carol. The following table illustrates the change in payoffs to each agent from transferring one or more desserts from whichever agent has it to Carol.
+
+| Agent | None | choc | ice | choc & ice  |
+| ----- | ---- | ---- | --- | ----------- |
+| Alice | 0    | -5   | 0   | -5          |
+| Bob   | 0    | 0    | -7  | -7          |
+| Carol | 0    | 7    | 10  | 12          |
+
+Which outcome will the VCG mechanism choose?
+
+- The VCG mechanism chooses the outcome which maximizes sum utility. Transferring the ice cream to Carol results in a sum utility of 15.
+
+### #10
+
+Suppose that you are selling a single item to n bidders with private valuations drawn uniformly and independently from the range [1,2]. What is the optimal (revenue maximizing) reserve price? 
 
 
 
