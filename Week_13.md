@@ -79,6 +79,8 @@ As above, does W satisfy transitivity?
 
 - Yes? What does it mean for a social welfare function to satisfy transitivity?
 
+#### The answer is not Yes.
+
 ### #5
 
 Consider an auction with 2 risk-neutral bidders whose private values are independent and drawn from a uniform distribution [0,1]. Which of the following auctions is an implementation in dominant strategies (so that truth is a dominant strategy)?
@@ -123,6 +125,8 @@ Under Rule 2, the same is true.
 
 - Neither 1 nor 2.
 
+#### Not Neither 1 nor 2
+
 ### #7
 
 As above, which voting rule is budget balanced?
@@ -160,6 +164,8 @@ Which outcome will the VCG mechanism choose?
 Suppose that you are selling a single item to n bidders with private valuations drawn uniformly and independently from the range [1,2]. What is the optimal (revenue maximizing) reserve price? 
 
 - (n-1)/(n+1)
+
+#### Not (n-1)/(n+1)
 
 ### #11
 
